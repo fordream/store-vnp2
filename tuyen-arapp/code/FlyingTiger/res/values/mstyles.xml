@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="editextStyle">
+        <item name="android:background">@drawable/editext</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:background">@drawable/button_xml</item>
+        <item name="android:textSize">@dimen/dimen_13dp</item>
+        <item name="android:height">@dimen/dimen_45dp</item>
+        <item name="android:width">@dimen/dimen_200dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="header">
+        <item name="android:height">@dimen/dimen_45dp</item>
+    </style>
+
+    <style name="header_text">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/dimen_18dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="header_button">
+        <item name="android:background">@drawable/button_xml</item>
+        <item name="android:textSize">@dimen/dimen_13dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:height">@dimen/dimen_35dp</item>
+        <item name="android:width">@dimen/dimen_50dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="txtCopyRight">
+        <item name="android:textSize">@dimen/dimen_10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">@dimen/dimen_50dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:text">@string/copyright</item>
+    </style>
+
+    <style name="button">
+        <item name="android:background">@drawable/button_xml</item>
+        <item name="android:textSize">@dimen/dimen_10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">@dimen/dimen_100dp</item>
+        <item name="android:height">@dimen/dimen_45dp</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+
+</resources>

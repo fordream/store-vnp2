@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/s4e_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/s4e_background"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/s4e_content_doctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dip" >
+
+                <vnp.mr.mintmedical.view.AvatarView
+                    android:id="@+id/s4e_avatarView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </vnp.mr.mintmedical.view.AvatarView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp" >
+
+                    <vnp.mr.mintmedical.view.RobotoBoldTextView
+                        android:id="@+id/s4e_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="start"
+                        android:singleLine="true"
+                        android:text="TextView"
+                        android:textColor="#e24f02"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <vnp.mr.mintmedical.view.BaseTextViewBold
+                        android:id="@+id/s4e_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="#333333"
+                        android:typeface="serif" />
+
+                    <vnp.mr.mintmedical.view.BaseTextView
+                        android:id="@+id/s4e_text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="#999999" />
+
+                    <vnp.mr.mintmedical.view.BaseTextView
+                        android:id="@+id/s4e_text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="TextView"
+                        android:textColor="#999999" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s4e_s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="5dp" >
+
+            <vnp.mr.mintmedical.view.RobotoBoldTextView
+                android:id="@+id/s4e_text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/visittype"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <vnp.mr.mintmedical.view.BaseTextView
+                android:id="@+id/s4e_text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reasonforthisvisit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s4e_map"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/s4e_bnt"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s4e_button" />
+    </LinearLayout>
+
+</LinearLayout>

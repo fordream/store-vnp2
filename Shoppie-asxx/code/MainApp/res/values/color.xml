@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="color_white">#ffffff</drawable>
+    <drawable name="color_black">#000000</drawable>
+    <drawable name="color_sunday">#DB928C</drawable>
+    <drawable name="color_line">#7C736F</drawable>
+    <drawable name= "line_gray">#606060</drawable>
+    
+    <color name="menu_bound_active">#e5e5e5</color>
+    
+    <color name="color_header">#649dc9</color>
+
+</resources>

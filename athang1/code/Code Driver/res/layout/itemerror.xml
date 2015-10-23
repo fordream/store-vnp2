@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_background"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <com.example.org.com.driver.view.BaseTextView
+        android:id="@+id/erorrbaseTextView1"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="P0001"
+        android:textColor="#f9c03f"
+        android:textSize="15sp" />
+
+</LinearLayout>

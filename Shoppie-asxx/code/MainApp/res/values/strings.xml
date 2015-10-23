@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HoaTieu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="name">Tên tàu</string>
+    <string name="regis">Đăng kí</string>
+    <string name="help">Cầu cứu</string>
+    <string name="unhelp">Bỏ cấp cứu</string>
+    <string name="refresh">Cập nhật</string>
+    <string name="close">Close</string>
+    <string name="sohieu">Số Hiệu</string>
+    <string name="error">Error</string>
+    <string name="error_meesage_login">Nhập số điện thoại, tên tàu, số hiệu tàu</string>
+	<string name="notsupportmap">Sorry! Unable to create maps</string>
+	<string name="message">message</string>
+	<string name="thongbao">Thông báo</string>
+	<string name="thoitiet">Thời tiết</string>
+</resources>

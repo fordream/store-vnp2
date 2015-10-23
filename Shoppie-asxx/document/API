@@ -1,0 +1,28 @@
+
+notification : https://developers.arcgis.com/geotrigger-service/guide/android-push-notifications/#create-a-google-api-project
+
+Hi Trường:
+
+Anh gửi các web service đã viết từ trước
+
+1. Hàm đăng ký tài khoản(*)
+
+http://hoatieuws.99s.vn/index.php/api/webservice/hoatieuregister?deviceId=device1&deviceType=Android&deviceToken=token1&localName=Tau001&localMobile=123&latitude=105.000&longitude=20
+
+2. Hàm cập nhật tọa độ trạng thái(*)
+
+http://hoatieuws.99s.vn/index.php/api/webservice/hoatieuupdate?mobile=123&latitude=20&longitude=105&status=cancuu
+
+
+3. Danh sách các tọa độ tàu thuyền và các vị trí đảo,....  (*)
+
+http://hoatieuws.99s.vn/index.php/api/webservice/hoatieufixlocations/
+4. Danh sách tọa độ như bão or gì đó
+http://hoatieuws.99s.vn/index.php/api/webservice/hoatieueventlocations
+
+Chắc là theo yêu cầu Viettel anh sẽ có một chút phần sửa đổi.
+
+Nếu muốn định dạng json thì thêm /format/json vào cuối tên các hàm, trước danh sách biến. Ví dụ
+
+
+http://hoatieuws.99s.vn/index.php/api/webservice/hoatieueventlocations/format/json

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:gravity="center"
+        android:orientation="horizontal" android:layout_weight="100" android:paddingBottom="5dp" android:paddingTop="5dip">
+
+        <org.com.vn.loxleycolour.views.wiget.CustomRadioButton
+            android:id="@+id/CustomRadioButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dp"
+            android:paddingTop="5dip"
+            android:text="14 days" />
+
+        <org.com.vn.loxleycolour.views.wiget.CustomRadioButton
+            android:id="@+id/CustomRadioButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingLeft="0dip"
+            android:paddingTop="5dip"
+            android:text="1 months" />
+
+        <org.com.vn.loxleycolour.views.wiget.CustomRadioButton
+            android:id="@+id/CustomRadioButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingLeft="0dip"
+            android:paddingTop="5dip"
+            android:text="3 months" />
+
+        <org.com.vn.loxleycolour.views.wiget.CustomRadioButton
+            android:id="@+id/customRadioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="5dp"
+            android:text="6 months" />
+
+    </RadioGroup>
+
+    <org.com.vn.loxleycolour.views.SearchHeaderView
+        android:id="@+id/searchHeaderView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip" android:layout_weight="100">
+
+    </org.com.vn.loxleycolour.views.SearchHeaderView>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="700dip" android:cacheColorHint="#00000000" android:layout_weight="700">
+
+    </ListView>
+
+</LinearLayout>

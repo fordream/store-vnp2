@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dip"
+    android:layout_height="58dip"
+    android:background="@drawable/s71"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/id001"
+        android:layout_width="170dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="2dip"
+        android:orientation="vertical" >
+
+        <vnp.mr.mintmedical.view.RobotoBoldTextView
+
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="#333333"
+            android:textStyle="bold" />
+
+        <vnp.mr.mintmedical.view.BaseTextView
+
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="#999999" />
+    </LinearLayout>
+
+</LinearLayout>

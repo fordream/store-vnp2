@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <com.example.org.com.driver.view.BaseTextView
+        android:id="@+id/erorrbaseTextView1"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="1"
+        android:textColor="@color/a2"
+        android:textSize="15sp" />
+
+    <com.example.org.com.driver.view.BaseTextView
+        android:id="@+id/erorrbaseTextView1_1"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+</LinearLayout>

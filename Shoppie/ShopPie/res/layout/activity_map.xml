@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/kicknearby" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="102dip"
+            android:layout_height="30dip"
+            android:background="@drawable/danhsach1"
+            android:button="@drawable/tran"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="102dip"
+            android:layout_height="30dip"
+            android:background="@drawable/bando1"
+            android:button="@drawable/tran" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="102dip"
+            android:layout_height="30dip"
+            android:background="@drawable/danhmuc1"
+            android:button="@drawable/tran" />
+
+    </RadioGroup>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/radioGroup1"
+        android:apiKey="Your Maps API Key goes here"
+        android:clickable="true" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+</RelativeLayout>

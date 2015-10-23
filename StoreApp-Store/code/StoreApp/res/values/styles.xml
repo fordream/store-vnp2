@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonBar.AlertDialog" parent="@android:style/ButtonBar" />
+    <!-- android.R.style.Theme_DeviceDefault_Light_Dialog_NoActionBar -->
+    <style name="DialogKeypad" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/tranfer</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+    <!-- parent="@android:style/Theme_galleryItemBackground" -->
+    <style name="GalleryItem" parent="@android:style/Theme.Black">
+
+        <!-- galleryItemBackground  itemBackground  galleryStyle  ?android:attr/galleryItemBackground -->
+        <item name="android:background">?android:attr/galleryItemBackground</item>
+    </style>
+
+</resources>

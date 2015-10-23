@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+     android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <vnp.mr.mintmedical.HeaderView
+        android:id="@+id/activitymain_headerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    
+
+    <LinearLayout
+        android:id="@+id/s9_m1s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/s4e_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/s9main_name"
+             
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <vnp.mr.mintmedical.view.AvatarView
+                android:id="@+id/s9avatarView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </vnp.mr.mintmedical.view.AvatarView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dip" >
+
+                <vnp.mr.mintmedical.view.RobotoBoldTextView
+                    android:id="@+id/s9texxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s91"
+                    android:textColor="#e24f02"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/s9texxt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s92"
+                    android:textColor="#999999" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+       
+        android:id="@+id/s9content_main"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/s9_main_block2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="vertical" >
+
+            <vnp.mr.mintmedical.view.RobotoBoldTextView
+                android:id="@+id/s9texxt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s93"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <vnp.mr.mintmedical.view.BaseTextView
+                android:id="@+id/s9texxt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nonselected"
+                android:textColor="#999999" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#e0e0e0"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s9_main_block3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="vertical" >
+
+            <vnp.mr.mintmedical.view.RobotoBoldTextView
+                android:id="@+id/s9texxt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s9_emal"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <vnp.mr.mintmedical.view.BaseTextView
+                android:id="@+id/s9texxt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#999999" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#e0e0e0"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/s9button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/s9_updatemyaccount" />
+    </LinearLayout>
+
+</LinearLayout>

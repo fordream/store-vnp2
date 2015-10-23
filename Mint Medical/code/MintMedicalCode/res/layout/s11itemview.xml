@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/s11itemview_m1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/s11itemview_m1_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <LinearLayout
+                android:id="@+id/s11itemcontent"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <vnp.mr.mintmedical.view.BaseTextViewBold
+                        android:id="@+id/s11itemview_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/s11itemview_text2"
+                        android:text="TextView"
+                        android:textColor="#e24f02"
+                        android:textStyle="bold" />
+					<!-- android:textColor="#cccccc" -->
+                    <vnp.mr.mintmedical.view.BaseTextView
+                        android:id="@+id/s11itemview_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dip"
+                        android:text="TextView"
+                        android:textColor="#cccccc" />
+
+                </RelativeLayout>
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/s11itemview_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textColor="#999999" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/s11itemimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_item_img2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s11spac"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0e0e0"
+            android:orientation="horizontal" >
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

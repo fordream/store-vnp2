@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/share_controler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/share_bg_controller"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:id="@+id/share_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:paddingRight="@dimen/dimen_10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_24dp" />
+
+        <TextView
+            android:id="@+id/share_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_50dp"
+            android:text="保存されました！"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_24dp" />
+
+        <Button
+            android:id="@+id/share_twitter"
+            android:layout_width="@dimen/dimen_265dp"
+            android:layout_height="@dimen/dimen_53dp"
+            android:layout_marginBottom="@dimen/dimen_17dp"
+            android:background="@drawable/sahre_twitter_xml" />
+
+        <Button
+            android:id="@+id/share_back"
+            android:layout_width="@dimen/dimen_265dp"
+            android:layout_height="@dimen/dimen_53dp"
+            android:background="@drawable/sahre_back_xml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dimen_5dp"
+        android:paddingTop="@dimen/dimen_5dp" >
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

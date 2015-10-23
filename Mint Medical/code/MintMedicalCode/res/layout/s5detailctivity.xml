@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <vnp.mr.mintmedical.HeaderView
+        android:id="@+id/activitymain_headerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+    </vnp.mr.mintmedical.HeaderView>
+
+    <ScrollView
+        android:id="@+id/textView4Scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/id001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <vnp.mr.mintmedical.view.BaseTextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/textView1_1"
+                        android:text="TextView"
+                        android:textColor="#e24f02" />
+
+                    <vnp.mr.mintmedical.view.BaseTextView
+                        android:id="@+id/textView1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="5dip"
+                        android:text="TextView"
+                        android:textColor="#e24f02" />
+                </RelativeLayout>
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#333333" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/s6listview"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:orientation="vertical" >
+            </ListView>
+
+            <LinearLayout
+                android:id="@+id/id002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical" >
+
+                <vnp.mr.mintmedical.view.BaseTextViewBold
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dip"
+                    android:text="Doctor&apos;s Reply"
+                    android:textColor="#333333"
+                    android:textStyle="bold" />
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/s4c_edt"
+                    android:gravity="top"
+                    android:padding="10dip"
+                    android:text="Since your body get hurt..."
+                    android:textColor="#333333" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

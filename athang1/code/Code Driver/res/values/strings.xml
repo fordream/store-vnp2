@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PRO CLASS</string>
+    <string name="action_settings">Settings</string>
+    <string name="text1_1">"We sent an Engine Code Report to\nyou and your mechanic by email. "</string>
+    <string name="text1_1_1">"Note: We sent an Engine Code Report\nto you and your mechanic by email. "</string>
+    <string name="text2">Don\'t get this email? Tap here</string>
+    <string name="error">Lorm ipsum dolor sit amet, consectetur adippicing elit. Maecenas ruturm nuua none arcu sagitits bidendum. Nullam eleifend portitor neque a euismod.Pellentesque feugiat, ligula at vehicula fermentum, turpis magna tempus metus, ut trisque sem eros id nulla.Sed nec dolor  hendrerit, pretium lorem id, malesuada mauris, integer facilisis consequat dui, eu pulvinar est elementum vilate. integer  tincidunt liguala ac nisl mattis, vitae pharetra nulla porttitor. Vivamus imperdiet sem ut tellus vestibulum placerat. Integer mattis condimentum libero, in faucibus quam imperdier non.</string>
+    <string name="error_header">OXYGEN 02 SENSOR HEATER\nCIRCUIT MALFUNCTION</string>
+
+    <color name="a1">#808080</color>
+    <color name="a2">#676767</color>
+    <color name="white">#ffffff</color>
+
+    <string name="w1">Test your new device\'s\nconntection, press the gar \npedal.</string>
+    <string name="w2">Your device has been\nsuccessfully connected!</string>
+    <string name="w2_color">#669966</string>
+    <string name="wallm2_tv1">When you see this\non your dashboard:</string>
+    <string name="wallm2_tv2">We\'ll tell you what\'s wrong\n&amp; help you get it fixed.</string>
+
+</resources>

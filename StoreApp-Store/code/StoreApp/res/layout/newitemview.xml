@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/newitemview_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <org.vnp.storeapp.views.MTetView
+                android:singleLine="true"
+                android:id="@+id/newitemview_txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#4a5158" />
+
+            <org.vnp.storeapp.views.MTetView
+                android:singleLine="true"
+                android:id="@+id/newitemview_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#bec4c9" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_up_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/down" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/image_new_item_content_re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/image_new_item_content"
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/new_item_content" />
+    </RelativeLayout>
+
+</LinearLayout>

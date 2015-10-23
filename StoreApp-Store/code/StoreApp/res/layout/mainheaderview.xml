@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainheaderview_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/mainheaderview_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:id="@+id/mainheaderview_lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <org.vnp.storeapp.views.MTetView
+            android:id="@+id/mainheaderview_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ABC"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

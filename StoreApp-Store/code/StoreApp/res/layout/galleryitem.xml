@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1galleryitemimageView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- style="@style/GalleryItem" -->
+
+    <ImageView
+        android:id="@+id/galleryitemimageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tranfer"
+        android:scaleType="centerCrop" />
+    <!-- android:background="@drawable/g_select_xml" -->
+
+    <LinearLayout
+        android:id="@+id/mitembackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</RelativeLayout>

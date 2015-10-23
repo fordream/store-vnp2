@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/error_bacground"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/problemheader_1"
+        android:layout_width="match_parent"
+        android:layout_height="53dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="34dip"
+            android:layout_height="51dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/problem1" />
+
+        <com.example.org.com.driver.view.BaseTextView
+            android:id="@+id/baseTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Vehicle Diagnostics Report"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <com.example.org.com.driver.view.BaseTextView
+            android:id="@+id/BaseTextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/error_001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/problem_m1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/error_main3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/error_main4" />
+
+        <com.example.org.com.driver.view.BaseTextViewBold
+            android:id="@+id/BaseTextViewBold02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageView6"
+            android:layout_toRightOf="@+id/imageView5"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:text="OXYGEB 02 SENSSOR HEATER CIRCUIT MALFUNCTION"
+            android:textColor="#ffcc66" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/problem2"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/problem_content"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.example.org.com.driver.view.BaseTextView
+                    android:id="@+id/BaseTextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="SUBHEADING"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+
+                <com.example.org.com.driver.view.BaseTextView
+                    android:id="@+id/baseTextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/error"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

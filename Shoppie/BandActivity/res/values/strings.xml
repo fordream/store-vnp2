@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name">Loyalty</string>
+
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices</string>
+    <string name="select_device">Device list</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="login">Login</string>
+    <string name="input_username">Input username</string>
+    <string name="input_password">Input password</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_uc2">UC2Activity</string>
+    <string name="scan">Scan</string>
+    <string name="send_info">Gửi</string>
+    <string name="sale_product">Giao dịch mua hàng</string>
+    <string name="redeem_gilf">Reddem quà tặng</string>
+    <string name="list_sale_day">Danh sách giao dịch trong ngày</string>
+    <string name="mua_hang">Mua hàng</string>
+    <string name="checkin">Checkin</string>
+    <string name="title_activity_uc4">UC4Activity</string>
+    <string name="pie_point">Pie point</string>
+    <string name="brand_point">Brand point</string>
+    <string name="select_gilf">Chọn quà từ list</string>
+    <string name="title_activity_uc5">UC5Activity</string>
+
+</resources>

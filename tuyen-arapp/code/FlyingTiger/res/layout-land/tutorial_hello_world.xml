@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/content_land"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/m1m0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingTop="@dimen/dimen_10dp" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_marginRight="@dimen/dimen_0dp"
+                android:background="@drawable/button_camera_xml"
+                android:onClick="onButtonClickCamera" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:background="@drawable/button_cancel_xml"
+                android:onClick="onButtonClick" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="@dimen/dimen_60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+              android:soundEffectsEnabled="false"
+            android:background="@drawable/button_save_xml"
+            android:onClick="onButtonSave" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/m1m1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dimen_10dp" >
+
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_marginRight="@dimen/dimen_5dp"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:background="@drawable/button_camera_xml"
+                android:onClick="onButtonClickCamera" />
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:background="@drawable/button_cancel_xml"
+                android:onClick="onButtonClick" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Button03"   android:soundEffectsEnabled="false"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_save_xml"
+            android:layout_marginBottom="@dimen/dimen_5dp"
+            android:onClick="onButtonSave" />
+
+    </RelativeLayout>
+
+</FrameLayout>

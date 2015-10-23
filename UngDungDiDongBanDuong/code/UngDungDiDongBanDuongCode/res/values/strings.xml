@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UngDungDiDongBanDuongCode</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register1">Bạn đã có tài khoản</string>
+    <string name="register2">Hoặc \nĐăng ký với go smart</string>
+    <string name="register3">Tên :</string>
+    <string name="register4">Điện thoại :</string>
+    <string name="register5">Mật khẩu :</string>
+    <string name="register6">Nhập lại mật khẩu :</string>
+    <string name="register7">Tôi đồng ý với các điều khoản của dịch vụ</string>
+    <string name="register8">Tôi nhận thông tin mới nhất qua email</string>
+    <string name="login1">Bạn đã có tài khản facebook</string>
+    <string name="login2">Hoặc \nĐăng nhập với go smart</string>
+    <string name="login4">Tôi quên mật khẩu >> Bấm vào đây</string>
+    <string name="bookonline">Đặt chỗ online</string>
+    <string name="accountmanager">Tài khoản</string>
+
+</resources>

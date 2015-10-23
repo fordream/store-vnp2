@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+   	<package>
+		<id>1</id>
+		<name>a_0002_k_0001</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>amefuri.png</icon>
+		<image_intro>amefuri_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>2</id>
+		<name>a_0002_k_0002</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>gonbesan.png</icon>
+		<image_intro>gonbesan_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>3</id>
+		<name>a_0002_k_0003</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>cyoucyo.png</icon>
+		<image_intro>cyoucyo_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>4</id>
+		<name>a_0002_k_0004</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>katatsumuri.png</icon>
+		<image_intro>katatsumuri_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>5</id>
+		<name>a_0002_k_0005</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>kamome.png</icon>
+		<image_intro>>kamome_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>6</id>
+		<name>a_0002_k_0006</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>shabondama.png</icon>
+		<image_intro>shabondama_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>7</id>
+		<name>a_0002_k_0007</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>musunde.png</icon>
+		<image_intro>musunde_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>8</id>
+		<name>a_0002_k_0008</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>oninopantsu.png</icon>
+		<image_intro>oninopantsu_deail.png</image_intro>
+	</package>
+
+	<package>
+		<id>9</id>
+		<name>a_0002_k_0016</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>1</vol>
+		<icon>donguri.png</icon>
+		<image_intro>donguri_detail.png</image_intro>
+	</package>
+
+
+
+	<package>
+		<id>11</id>
+		<name>a_0002_k_0011</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>2</vol>
+		<icon>tanuki.png</icon>
+		<image_intro>tanuki_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>12</id>
+		<name>a_0002_k_0014</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>2</vol>
+		<icon>obento.png</icon>
+		<image_intro>obento_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>13</id>
+		<name>a_0002_k_0015</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>2</vol>
+		<icon>yuki.png</icon>
+		<image_intro>yuki_detail.png</image_intro>
+	</package>
+
+
+	<package>
+		<id>15</id>
+		<name>a_0002_k_0009</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>3</vol>
+		<icon>usagikame.png</icon>
+		<image_intro>usagikame_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>16</id>
+		<name>a_0002_k_0010</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>3</vol>
+		<icon>urashimataro.png</icon>
+		<image_intro>urashimataro_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>17</id>
+		<name>a_0002_k_0012</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>3</vol>
+		<icon>koinobori.png</icon>
+		<image_intro>koinobori_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>18</id>
+		<name>a_0002_k_0013</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>3</vol>
+		<icon>momotaro.png</icon>
+		<image_intro>momotaro_detail.png</image_intro>
+	</package>
+
+	
+
+
+	<package>
+		<id>21</id>
+		<name>a_0002_k_0017</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>3</vol>
+		<icon>guchokipa.png</icon>
+		<image_intro>guchokipa_detail.png</image_intro>
+	</package>
+
+	<package>
+		<id>22</id>
+		<name>a_0002_k_0018</name>
+		<package_relation></package_relation>
+		<checksum_data></checksum_data>
+		<song_number>1</song_number>
+		<vol>3</vol>
+		<icon>ichinensei.png</icon>
+		<image_intro>ichinensei_detail.png</image_intro>
+	</package>
+	
+   
+</packages>

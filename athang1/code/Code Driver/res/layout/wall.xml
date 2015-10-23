@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login5"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/login_id_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dip"
+            android:src="@drawable/top_img" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/wall_m1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <com.example.org.com.driver.view.ProCallView
+            android:id="@+id/proCallView1"
+            android:layout_width="210dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="50dp" >
+        </com.example.org.com.driver.view.ProCallView>
+
+        <com.example.org.com.driver.view.BaseTextView
+            android:id="@+id/baseTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="BaseTextView"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wall_m2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <com.example.org.com.driver.view.BaseTextView
+            android:id="@+id/wallm2_tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/wallm2_tv1"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/wallm2_tv_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/wall11" />
+
+        <com.example.org.com.driver.view.BaseTextView
+            android:id="@+id/wallm2_tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Open our app:"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/wallm2_tv_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/wall10" />
+
+        <com.example.org.com.driver.view.BaseTextView
+            android:id="@+id/wallm2_tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Proclass"
+            android:textColor="#ffffff" />
+
+        <com.example.org.com.driver.view.BaseTextView
+            android:id="@+id/wallm2_tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/wallm2_tv2"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

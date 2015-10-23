@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idheadermain"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/headder_bg" >
+
+    <com.example.mytaken.view.CustomButton
+        android:id="@+id/customButton1_header"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/header_btn_back"
+        android:text="back" />
+
+    <com.example.mytaken.view.CustomButton
+        android:id="@+id/customButton2_header"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/header_btn_next"
+        android:text="next" />
+
+    <com.example.mytaken.view.CustomTextViewBold
+        android:id="@+id/customTextViewBold1_header"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="HeaderView" />
+
+</RelativeLayout>

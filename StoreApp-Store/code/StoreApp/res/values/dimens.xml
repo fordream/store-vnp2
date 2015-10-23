@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">@dimen/sizedp16</dimen>
+    <dimen name="activity_vertical_margin">@dimen/sizedp16</dimen>
+    <dimen name="header_height">@dimen/sizedp50</dimen>
+    <dimen name="header_text_size">@dimen/sizesp25</dimen>
+    <dimen name="item_company_img_width">@dimen/sizedp100</dimen>
+
+</resources>

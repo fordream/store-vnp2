@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/s11itemview_m1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/s11itemcontent"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <vnp.mr.mintmedical.view.BaseTextViewBold
+                    android:id="@+id/s11itemview_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/s11itemview_text1_1"
+                    android:text="TextView"
+                    android:textColor="@color/itemheader"
+                    android:textStyle="bold" />
+<!-- android:textColor="@color/itemheader" -->
+                <vnp.mr.mintmedical.view.BaseTextViewBold
+                    android:id="@+id/s11itemview_text1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="TextView"
+                    android:layout_marginLeft="5dip"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <vnp.mr.mintmedical.view.BaseTextView
+                android:id="@+id/s11itemview_text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s11spac"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#e0e0e0"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

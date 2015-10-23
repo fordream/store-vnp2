@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:paddingLeft="20dip" android:paddingRight="20dip">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:orientation="vertical" android:background="@color/color_white">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="14dip" android:singleLine="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginBottom="5dip" android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="160"
+            android:text="TextView"
+            android:textSize="10dip" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="56dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="56"
+            android:text="TextView"
+            android:textSize="10dip" android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="73dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="73"
+            android:text="TextView"
+            android:textSize="10dip" android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="98dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="98"
+            android:text="TextView"
+            android:textSize="10dip" android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="68"
+            android:text="TextView"
+            android:textSize="10dip" android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="54dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="54"
+            android:text="TextView"
+            android:textSize="10dip" android:singleLine="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

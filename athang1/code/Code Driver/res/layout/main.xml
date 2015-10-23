@@ -1,0 +1,286 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background_2"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:scrollbarSize="0dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background_2"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/main_background_2" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="91dp"
+                android:layout_height="22dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/top_img" />
+
+            <LinearLayout
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/st1" />
+
+                <com.example.org.com.driver.view.BaseTextView
+                    android:id="@+id/baseTextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SETTINGS"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/setting_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/imageView7_left"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                     >
+
+                    <com.example.org.com.driver.view.ProCallMainView
+                        android:id="@+id/proCallMainView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                    </com.example.org.com.driver.view.ProCallMainView>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <com.example.org.com.driver.view.BaseTextView
+                        android:id="@+id/baseTextView3_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CONNECTED"
+                        android:textColor="#ffffff"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:background="@drawable/st2" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/login2" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_m1_m1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting4" />
+
+            <com.example.org.com.driver.view.BaseTextView
+                android:id="@+id/baseTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="2000 Jeep Cherokee"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/error_main1" />
+
+            <com.example.org.com.driver.view.BaseTextViewBold
+                android:id="@+id/baseTextViewBold1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3 ISSUES FOUND"
+                android:textColor="#ffcc66" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/error_main6"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <com.example.org.com.driver.view.BaseTextViewBold
+                android:id="@+id/baseTextViewBold1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle diagnostics report send to\nyou and your mechanic by email."
+                android:textColor="#ffcc66" />
+
+            <com.example.org.com.driver.view.BaseTextViewBold
+                android:id="@+id/baseTextViewBold1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Didn&apos;t get this email? Tap here."
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:id="@+id/error_is"
+                android:layout_width="200dp"
+                android:layout_height="100dip"
+                android:background="@drawable/error_main5"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/error_is1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/error_001"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center" >
+                    </LinearLayout>
+
+                    <com.example.org.com.driver.view.BaseTextViewBold
+                        android:id="@+id/BaseTextViewBold01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Issues found:"
+                        android:textColor="#ffffff" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/error_main3" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/error_main4" />
+
+                        <com.example.org.com.driver.view.BaseTextViewBold
+                            android:id="@+id/BaseTextViewBold02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/imageView6"
+                            android:layout_toRightOf="@+id/imageView5"
+                            android:gravity="center"
+                            android:maxLines="2"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"
+                            android:text="OXYGEB 02 SENSSOR HEATER CIRCUIT MALFUNCTION"
+                            android:textColor="#ffcc66" />
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/error_main2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dip"
+            android:layout_height="300dp"
+            android:background="@drawable/main_1_1" />
+
+        <LinearLayout
+            android:id="@+id/main_call"
+            android:layout_width="200dip"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call1"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/main_call1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <com.example.org.com.driver.view.BaseTextView
+                android:id="@+id/baseTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:paddingRight="5dp"
+                android:text="BaseTextView"
+                android:textColor="#ff3333" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

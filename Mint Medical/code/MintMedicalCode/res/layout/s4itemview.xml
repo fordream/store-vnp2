@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/s4firstitemview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/s4first1itemview"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <vnp.mr.mintmedical.view.BaseTextView
+                android:id="@+id/s4_text1itemview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dip"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:text="@string/Youhavenoupcomingappointments"
+                android:textColor="#333333" />
+
+            <Button
+                android:id="@+id/s4_button1itemview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/s4_newapp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/s4_text2itemview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/s4_img1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/s4ditem_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/s4ditemview_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <vnp.mr.mintmedical.view.RobotoBoldTextView
+                android:id="@+id/s4ditemview_textheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Appointment History"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#e24f02"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:id="@+id/s11spac"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:background="#ffe9dd"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/s4itemview_content_main_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:gravity="center|top"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <ImageView
+                android:id="@+id/s4ditemview_img2_1"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/main_item_img2" />
+
+            <vnp.mr.mintmedical.view.RobotoBoldTextView
+                android:id="@+id/s4ditemview_textview1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/s4ditemview_img2_1"
+                android:ellipsize="start"
+                android:singleLine="true"
+                android:text="View Past Appointment"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/s4itemview_content_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <vnp.mr.mintmedical.view.AvatarView
+                android:id="@+id/s4ditemviewavatarView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dip" >
+            </vnp.mr.mintmedical.view.AvatarView>
+
+            <LinearLayout
+                android:id="@+id/id_m1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <vnp.mr.mintmedical.view.RobotoBoldTextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#333333"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <vnp.mr.mintmedical.view.BaseTextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#999999" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/s4ditemview_img2"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:background="@drawable/main_item_img2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s4ditemview_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/id_m1"
+                android:layout_toRightOf="@+id/s4ditemviewavatarView1"
+                android:orientation="vertical" >
+
+                <vnp.mr.mintmedical.view.RobotoBoldTextView
+                    android:id="@+id/s4ditemview_textview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="start"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="#333333"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <vnp.mr.mintmedical.view.RobotoBoldTextView
+                    android:id="@+id/s4ditemview_textview1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="start"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="#333333"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/s4ditemview_textview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#999999" />
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/s4ditemview_textview2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#999999" />
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/s4ditemview_textview3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text=""
+                    android:textColor="#999999" />
+
+                <vnp.mr.mintmedical.view.BaseTextView
+                    android:id="@+id/s4ditemview_textview4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#e24f02" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/s10item_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#e0e0e0"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

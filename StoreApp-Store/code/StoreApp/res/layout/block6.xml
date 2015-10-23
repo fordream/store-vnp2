@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/block_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <org.vnp.storeapp.blocklist.BlockView
+            android:id="@+id/block1"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignParentLeft="true" >
+        </org.vnp.storeapp.blocklist.BlockView>
+
+        <org.vnp.storeapp.blocklist.BlockView
+            android:id="@+id/block2"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignParentBottom="true" >
+
+        </org.vnp.storeapp.blocklist.BlockView>
+
+        <org.vnp.storeapp.blocklist.BlockView
+            android:id="@+id/block3"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignParentRight="true" >
+
+        </org.vnp.storeapp.blocklist.BlockView>
+
+        <org.vnp.storeapp.blocklist.BlockView
+            android:id="@+id/block4"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" >
+
+        </org.vnp.storeapp.blocklist.BlockView>
+    </RelativeLayout>
+
+</LinearLayout>

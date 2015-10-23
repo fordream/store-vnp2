@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/s4dlistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/av_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/av2"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/av_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/av1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/whel_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/w1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/avwhel1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/avcancel" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/avdone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/w2"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_below="@+id/w1"
+                android:background="@drawable/avwhel2"
+                android:gravity="center" >
+
+                <com.vnp.core.view.wheel.WheelView
+                    android:id="@+id/whel1"
+                    android:layout_width="50dp"
+                    android:layout_height="200dip"
+                    android:background="@drawable/wheel_bg1" >
+                </com.vnp.core.view.wheel.WheelView>
+
+                <com.vnp.core.view.wheel.WheelView
+                    android:id="@+id/whel2"
+                    android:layout_width="50dp"
+                    android:layout_height="200dip"
+                    android:background="@drawable/wheel_bg1" >
+                </com.vnp.core.view.wheel.WheelView>
+
+                <com.vnp.core.view.wheel.WheelView
+                    android:id="@+id/whel3"
+                    android:layout_width="50dp"
+                    android:layout_height="200dip"
+                    android:background="@drawable/wheel_bg1" >
+                </com.vnp.core.view.wheel.WheelView>
+                 <com.vnp.core.view.wheel.WheelView
+                    android:id="@+id/whel4"
+                    android:layout_width="50dp"
+                    android:layout_height="200dip"
+                    android:background="@drawable/wheel_bg1" >
+                </com.vnp.core.view.wheel.WheelView>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

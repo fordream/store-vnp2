@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f7f3"
+        android:divider="@drawable/new_list_space"
+        android:dividerHeight="2dp" >
+    </ListView>
+
+    <org.vnp.storeapp.blocklist.LoaderView
+        android:id="@+id/profoliofragment_loaderview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </org.vnp.storeapp.blocklist.LoaderView>
+
+</RelativeLayout>

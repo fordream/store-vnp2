@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="app_name">StoreApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dont_email"> check for your email</string>
+    <string name="inpput_your_name">Input your name</string>
+    <string name="inpput_your_telephone">input your phone number</string>
+    <string name="inpput_your_message">input your message</string>
+    <string name="update_new_version">you need update new version this application!</string>
+
+    <string-array name="menus">
+        <item>Company List</item>
+        <item>MyProduct List</item>
+        <item>Add New Product</item>
+        <item>Information</item>
+        <item>Download List</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="forgetpassword">Forget pasword</string>
+    <string name="about_infor">Company Profile\n
+		\nThe Suzlon Group is ranked as the world’s fifth largest* wind turbine supplier, in terms of cumulative installed capacity and market share, at the end of 2013. The company’s global spread extends across Asia, Australia, Europe, Africa and North and South America with over 24,000 MW of wind energy capacity installed, operations across over 30 countries and a workforce of over 10,000.
+		\nThe Group offers one of the most comprehensive product portfolios – ranging from sub-megawatt onshore turbines at 600 Kilowatts(KW), to the world’s largest commercially-available offshore turbine at 6.15 MW – with a vertically integrated, low - cost, manufacturing base.
+		\nThe Group –headquartered at Suzlon One Earth in Pune, India –comprises Suzlon Energy Limited and its subsidiaries, including Senvion SE.</string>
+    <string name="loadding">loadding ...</string>
+    <string name="mes">ABSCDFFFFFFFFFF\\nAD hdsds dsdsds dsdsd sdsds ds dsd sd sd hdsds dsdsds dsdsd sdsds ds dsd sd sd hdsds dsdsds dsdsd sdsds ds dsd sd sd hdsds dsdsds dsdsd sdsds ds dsd sd sd hdsds dsdsds dsdsd sdsds ds dsd sd sd hdsds dsdsds dsdsd sdsds ds dsd sd sd</string>
+
+    
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_pager_main">#f8f7f3</color>
+    <color name="color_text_main_1">#373c40</color>
+    <color name="color_text_main_2">#61605b</color>
+    <string name="checknewversion">Please goto googlestore and update new version!</string>
+    <string name="home">Home</string>
+     <color name="tranfer">#00000000</color>
+    <color name="unselected">#123456</color>
+</resources>

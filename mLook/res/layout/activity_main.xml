@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <com.vnp.mlook.views.HeaderView
+        android:id="@+id/headerView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+    </com.vnp.mlook.views.HeaderView>
+
+    <com.vnp.mlook.views.FooterView
+        android:id="@+id/footerView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </com.vnp.mlook.views.FooterView>
+
+    <RelativeLayout
+        android:id="@+id/idMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footerView1"
+        android:layout_below="@+id/headerView1"
+        android:layout_centerHorizontal="true" >
+    </RelativeLayout>
+
+    <com.vnp.mlook.views.MenuView
+        android:id="@+id/menuView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.vnp.mlook.views.MenuView>
+
+    <com.vnp.mlook.views.Menu1View
+        android:id="@+id/menu1View1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.vnp.mlook.views.Menu1View>
+
+    <com.vnp.mlook.views.Menu2View
+        android:id="@+id/menu2View1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.vnp.mlook.views.Menu2View>
+
+    <com.vnp.mlook.views.Menu3View
+        android:id="@+id/menu3View1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.vnp.mlook.views.Menu3View>
+
+</RelativeLayout>

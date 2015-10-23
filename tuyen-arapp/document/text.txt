@@ -1,0 +1,36 @@
+https://dev.metaio.com/creator/tutorials/create-an-ar-application/create-a-public-junaio-channel/
+http://dev.junaio.com/
+
+
+[8:48:35 AM] Tuyen Dao: Ngọc Anh ơi, dùng SDK của Junaio nhé. Ko dùng của Metaio.
+
+http://www.flyingtiger.jp/
+https://dev.metaio.com/creator/tutorials/create-an-ar-application/
+thử xem nó là cái gì
+https://dev.metaio.com/junaio/          com.metaio.junaio
+http://www.youtube.com/watch?v=7vKs3nlfUiM
+https://play.google.com/store/apps/details?id=jp.rkk.kumamon&hl=ja
+
+
+http://www.youtube.com/channel/UCHKuLpFy9q8XDp0i9WNHkDw
+
+
+Dear 2 bạn, dưới đây là confirm về dự án ngắn ngày AR này nhé:
++Desine is on our side(viralworks) => Mình sẽ nhận đc design
++Marker and charactors for AR  will also made by our side. => Sẽ nhận đc
++Charactors are only 2D(not 3D). => CHỈ CÓ 2D NHÉ
++Final deadline 10/24 (application must be ready in app store & Google Play => iOS should be completed before 10/10 + Android should be completed before 18/10
++Using junaio SDK.
+-----------------------
+[8:37:45 AM] Tuyen Dao: nhưng vì ko làm 3D đc, nên budget của mình bị reduced, total cho cả 2 cái là $1,050.00
+[8:37:56 AM] Tuyen Dao: 2 bạn confirm chứ?
+[8:49:07 AM] Tuyen Dao: Link SDK: http://www.junaio.com/
+[8:49:16 AM] Tuyen Dao: and: https://dev.metaio.com/creator/tutorials/create-an-ar-application/
+
+
+
++Desine is on our side(viralworks) => Mình sẽ nhận đc design
++Marker and charactors for AR  will also made by our side. => Sẽ nhận đc
++Charactors are only 2D(not 3D). => CHỈ CÓ 2D NHÉ
++Final deadline 10/24 (application must be ready in app store & Google Play => iOS should be completed before 10/10 + Android should be completed before 18/10
++Using junaio SDK.

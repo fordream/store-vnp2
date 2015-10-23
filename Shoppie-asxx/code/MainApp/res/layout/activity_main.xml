@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/tabbar_region"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_help"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_login"
+            android:paddingTop="0dp"
+            android:text="@string/help"
+            android:textColor="@drawable/color_white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_login"
+            android:paddingTop="0dp"
+            android:text="@string/refresh"
+            android:textColor="@drawable/color_white"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <com.hoatieu.MyInforView
+        android:id="@+id/myInforView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.hoatieu.MyInforView>
+
+    <com.hoatieu.MakerInforView
+        android:id="@+id/makerInforView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myInforView1" >
+    </com.hoatieu.MakerInforView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/img_compass" />
+
+        <Button
+            android:id="@+id/button_message"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:background="@drawable/message" />
+
+        <Button
+            android:id="@+id/button_mylocation"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:background="@drawable/my_location_icon" />
+    </LinearLayout>
+
+</RelativeLayout>

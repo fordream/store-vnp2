@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LoxleyColourActivity!</string>
+    <string name="app_name">Loxley Colour</string>
+    <string name="follow">Follow us on @LoxleyColour</string>
+    <string name="email">E-mail address: cs@loxleycolour.com</string>
+    <string name="url">http://www.loxleycolour.com</string>
+    <string name="face">http://facebook.com/LoxleyColour</string>
+    <string name="loadding">Loadding ...</string>
+    <string name="email_example">e.g join.smith@loxleycolour.com</string>
+    <string name="remember">Remember password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="order">Order in progress</string>
+    <string name="com">Completed orders</string>
+    <string name="click_hear">Click here for more information.</string>
+    <string name="reset_password">Reset password</string>
+    <string name="email_address">E-mail address</string>
+    <string name="reference">Reference :</string>
+    <string name="totalgbd">Total GBD Excl VAT</string>
+    <string name="totalgbdvat">Total GBD VAT</string>
+    <string name="totalgbdin">Total GBP Incl VAT</string>
+    <string name="duedate">Due Date ..................................................................................................................................................................................................................</string>
+    <string name="oderref">Order ref ..........................................................................................................................................................</string>
+    <string name="update">Update</string>
+    <string name="lines">Lines open Mon-Fri 8.30 am - 5.30 pm</string>
+
+</resources>

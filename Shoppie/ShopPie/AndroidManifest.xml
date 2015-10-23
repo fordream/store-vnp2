@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.com.shoppie"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="org.com.shoppie.ShopPieSplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.com.shoppie.MainActivity"
+            android:label="@string/title_activity_shop_pie_splash"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="org.com.shoppie.MMapActivity"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="org.com.shoppie.PresentActivity"
+            android:label="@string/title_activity_present" >
+        </activity>
+        <activity
+            android:name="org.com.shoppie.ProductDetailActivity"
+            android:label="@string/title_activity_product_detail" >
+        </activity>
+        <activity
+            android:name="org.com.shoppie.CheckInActivity"
+            android:label="@string/title_activity_check_in" >
+        </activity>
+        <activity
+            android:name="org.com.shoppie.RedeemActivity"
+            android:label="@string/title_activity_redeem" >
+        </activity>
+        <activity
+            android:name="org.com.shoppie.ProductActivity"
+            android:label="@string/title_activity_product" >
+        </activity>
+        <service android:name=".service.MService"></service>
+    </application>
+
+</manifest>

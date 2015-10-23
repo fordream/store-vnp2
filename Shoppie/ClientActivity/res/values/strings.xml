@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">DetechBluetooth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="none_found">No device</string>
+    <string name="login">Login</string>
+    <string name="input_username">Input username</string>
+    <string name="input_password">Input password</string>
+    <string name="message_login">Đang lấy thông tin tài khoản. Vui lòng chờ...</string>
+
+</resources>

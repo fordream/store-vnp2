@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- package jp.co.xing.utaehon.v2 -->
+<!-- package jp.co.xing.utaehon.v2 -->
+<!--
+android:versionCode="11"
+    android:versionName="1.1.9"
+-->
+<!-- net.robotmedia.billing.dungeons.redux.truong -->
+<!-- jp.co.xing.utaehon.v2 -->
+
+<!-- jp.naver.KDTCUE.atmarkcafe -->
+<!--
+  android:versionCode="1"
+    android:versionName="1.0.1"
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.naver.KDTCUE.test"
+    android:installLocation="auto"
+    android:versionCode="14"
+    android:versionName="1.4.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:icon="@drawable/icon114"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.xing.joy.play.StartUpActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xing.joy.play.PlayMovieActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+    </application>
+
+</manifest>

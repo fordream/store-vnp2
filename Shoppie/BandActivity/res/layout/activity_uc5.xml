@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/sale_day_listview"
+        android:layout_width="match_parent"
+        android:layout_height="350dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:stackFromBottom="true" />
+
+    <Button
+        android:id="@+id/sale_product_sale_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/sale_product" />
+
+    <Button
+        android:id="@+id/list_sale_day_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sale_product_sale_day"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/list_sale_day" />
+
+    <Button
+        android:id="@+id/redeem_gilf_sale_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_sale_day_2"
+        android:layout_toRightOf="@+id/sale_product_sale_day"
+        android:text="@string/redeem_gilf" />
+
+</RelativeLayout>

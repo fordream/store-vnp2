@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShopPie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_shop_pie_splash">ShopPieSplashActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_present">PresentActivity</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="title_activity_check_in">CheckInActivity</string>
+    <string name="title_activity_redeem">RedeemActivity</string>
+    <string name="title_activity_product">ProductActivity</string>
+
+</resources>

@@ -1,0 +1,18 @@
+http://magento-onestepcheckout.cmsideas.net defand1
+http://magento-onestepcheckout.cmsideas.net/index.php/admin
+app/app1234
+
+
+
+------------------------------------------------------------
+http://www.magentocommerce.com/knowledge-base/entry/magento-mobile-app-submission-checklist
+tinyurl.com/mobile-support
+
+
+
+http://inchoo.net/ecommerce/magento/android-magento-mobile-boilerplate/
+
+http://stackoverflow.com/users/1155805/haresh-chaudhary?tab=questions
+http://inchoo.net/ecommerce/magento/consuming-the-magento-xmlrpc-web-service-through-android/
+
+https://github.com/ivicatadic/Magentoid2

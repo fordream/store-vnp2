@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <org.vnp.peaps.base.HeaderView
+        android:id="@+id/headerView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </org.vnp.peaps.base.HeaderView>
+
+    <ListView
+        android:id="@+id/contactscreen_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@null" >
+    </ListView>
+
+</LinearLayout>

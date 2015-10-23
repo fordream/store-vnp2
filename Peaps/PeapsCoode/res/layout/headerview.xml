@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_mmm"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_50dp"
+    android:background="@drawable/header_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/headerview_back"
+        android:layout_width="@dimen/dimen_46dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:background="@drawable/back_xml" />
+
+    <ImageView
+        android:id="@+id/headerview_back_1"
+        android:layout_width="@dimen/dimen_10dp"
+        android:layout_height="@dimen/dimen_50dp" />
+
+    <ImageView
+        android:id="@+id/headerview_logo"
+        android:layout_width="@dimen/dimen_83dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:background="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/headerview_contact"
+            android:layout_width="@dimen/dimen_32dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:background="@drawable/contact_xml" />
+           <ImageView
+            android:id="@+id/headerview_contact_1"
+            android:layout_width="@dimen/dimen_10dp"
+            android:layout_height="@dimen/dimen_50dp"/>
+    </LinearLayout>
+
+</LinearLayout>

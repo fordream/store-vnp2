@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register7"
+    android:orientation="vertical" >
+
+    <com.example.mytaken.view.HeaderView
+        android:id="@+id/headerView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.mytaken.view.HeaderView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.example.mytaken.view.CustomTextView
+            android:id="@+id/CustomTextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/login1" />
+
+        <com.example.mytaken.view.CustomButton
+            android:id="@+id/customButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login1" />
+
+        <com.example.mytaken.view.CustomTextView
+            android:id="@+id/customTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/login2" />
+
+        <LinearLayout
+            android:id="@+id/register_block_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.example.mytaken.view.CustomEditext
+                android:id="@+id/customEditext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center|left"
+               
+                 android:hint="@string/register4"
+                android:paddingLeft="10dp"
+                android:textColor="#eaebe8"
+                android:textColorHint="#eaebe8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/register7" >
+            </LinearLayout>
+
+            <com.example.mytaken.view.CustomEditext
+                android:id="@+id/customEditext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center|left"
+                android:hint="@string/register5"
+                android:paddingLeft="10dp"
+                android:textColor="#eaebe8"
+                android:textColorHint="#eaebe8" />
+        </LinearLayout>
+
+       
+
+        <com.example.mytaken.view.CustomTextView
+            android:id="@+id/customTextView2"
+            android:gravity="center"
+            android:textColor="#4d9ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login4" />
+
+        <com.example.mytaken.view.CustomButton
+            android:id="@+id/CustomButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register2" />
+    </LinearLayout>
+
+</LinearLayout>

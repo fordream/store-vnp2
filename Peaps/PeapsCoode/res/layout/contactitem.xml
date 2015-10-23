@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/contactitem_main"
+        android:layout_width="@dimen/dimen_300dp"
+        android:layout_height="@dimen/dimen_60dp" >
+
+        <LinearLayout
+            android:id="@+id/m1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+
+            <org.vnp.storeapp.views.MTetView
+                android:id="@+id/contactitem_text_per"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="60"
+                android:textSize="@dimen/dimen_18dp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/contactitem_check"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/m1"
+            android:gravity="center|left" >
+
+            <ImageView
+                android:id="@+id/contactitem_avatar"
+                android:layout_width="@dimen/dimen_40dp"
+                android:layout_height="@dimen/dimen_40dp" />
+
+            <org.vnp.storeapp.views.MTetView
+                android:id="@+id/contactitem_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="MTetView"
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_18dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

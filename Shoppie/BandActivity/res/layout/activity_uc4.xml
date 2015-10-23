@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/customer_code_redeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/select_gilf_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customer_code_redeem"
+        android:layout_alignRight="@+id/customer_code_redeem"
+        android:layout_below="@+id/customer_code_redeem"
+        android:text="@string/select_gilf" />
+
+    <EditText
+        android:id="@+id/gilf_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customer_code_redeem"
+        android:layout_below="@+id/select_gilf_list"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/radioSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gilf_quantity"
+        android:layout_below="@+id/gilf_quantity" >
+
+        <RadioButton
+            android:id="@+id/pie_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/pie_point" />
+
+        <RadioButton
+            android:id="@+id/brand_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brand_point" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sale_product_redeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/sale_product" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/radioSale"
+        android:text="@string/redeem_gilf" />
+
+    <Button
+        android:id="@+id/list_sale_day_redeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sale_product_redeem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/list_sale_day" />
+
+    <Button
+        android:id="@+id/send_redeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioSale"
+        android:layout_toRightOf="@+id/gilf_quantity"
+        android:text="@string/send_info" />
+
+    <Button
+        android:id="@+id/scan_redeem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/send_redeem"
+        android:layout_alignTop="@+id/customer_code_redeem"
+        android:text="@string/scan" />
+
+</RelativeLayout>

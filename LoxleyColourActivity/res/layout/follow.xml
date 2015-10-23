@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llFollowForm"
+        android:layout_width="252dip"
+        android:layout_height="287dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="57dip"
+            android:src="@drawable/loxley_logo" android:layout_weight="57"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:orientation="vertical" android:layout_weight="20">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/contact_btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/btn_xml"
+            android:drawableLeft="@drawable/twiter"
+            android:gravity="center"
+            android:text="Follow us on Twitter"
+            android:textStyle="bold" android:layout_weight="35"/>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:text="@string/follow" android:layout_weight="35"/>
+
+        <Button
+            android:id="@+id/contact_btn_emal"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/btn_xml"
+            android:drawableLeft="@drawable/facebook"
+            android:text="Like us on Facebook"
+            android:textStyle="bold" android:layout_weight="35"/>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:text="@string/face" android:layout_weight="35"/>
+
+        <Button
+            android:id="@+id/contact_btn_visit"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/btn_website_xml"
+            android:text="Visit our website"
+            android:textColor="#ffffff"
+            android:textStyle="bold" android:layout_weight="35"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:text="@string/url" android:layout_weight="35"/>
+    </LinearLayout>
+
+</LinearLayout>

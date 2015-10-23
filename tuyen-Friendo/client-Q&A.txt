@@ -1,0 +1,18 @@
+2. Hosting
+The site would be hosted on Elastx: http://elastx.se/ which the client says is very good and scalable solution. We will get more info from the client when we approach that mile stone.
+
+Would you have any comments to this? 
+
+3. Crash reports, Android
+The client asks if this is something we can get into the Android-version? http://www.acra.ch/
+
+4. SMS
+The client checked some SMS-providers:
+https://www.cognalys.com/pricing/
+https://www.nexmo.com/pricing/
+http://www.twilio.com/sms/pricing/se
+
+Would you have any comments or alternatives that you'd like to suggest?
+
+5. Other?
+Would you have any other questions/comments at this point?

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mnd"
+        android:orientation="vertical"
+        android:scrollbarSize="0dp"
+        android:scrollbarThumbVertical="@drawable/tranfer"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FTC Cameraの楽しみ方"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_13dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_10dp"
+                android:text="@string/str_about"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_13dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/mnd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_55dp"
+        android:background="@drawable/about_header" >
+
+        <ImageView
+            android:id="@+id/abount_close"
+            android:layout_width="@dimen/dimen_55dp"
+            android:layout_height="@dimen/dimen_55dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_abount_xml" />
+    </RelativeLayout>
+
+</RelativeLayout>

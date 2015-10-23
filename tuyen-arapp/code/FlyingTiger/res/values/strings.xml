@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Flying Tiger -->
+    <string name="app_name">FTC Camera</string>
+    <string name="about">About</string>
+    <string name="lest_take">Let\'s take a picture</string>
+    <string name="back">Back</string>
+    <string name="copyright">FLYING TIGER COPENHAGEN © All Rights Reserved.</string>
+    <string name="loader">Please, loading ...</string>
+    <!-- lfLeXe2sIIvD+MdiWe6LLfC4KnGeoy1KPyBdHR/gZgs= -->
+    <!-- pzHLStvSALLWRwMHucg1FerfZNotnjorUOMCemmn8Pc= -->
+    <string name="metaioSDKSignature">iWzqqqNP90bqhFGTZ9vjA+/RbOkdCwbWOq2cr46yIeA=</string>
+    <string name="skype_install">Twitterがインストールされていません。OKを押してgoogle play storeへ移動してください。</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="img_save_fail">The image can not save file : %s \n Click 戻る to close screen.</string>
+    <string name="img_save_success">The image save to file :%s.</string>
+
+    <!-- abount -->
+    <string name="str_about">□ストアにて\n
+ストアでマーカーのステッカーが配布されています。\n
+アプリを起動して「TAKE PHOTO」を選択します。\n
+起動したカメラをマーカーに向けると、オリジナルフォトフレームが登場！\n
+ストア内で撮影を楽しみましょう。\n\n
+□お部屋にて\n
+フライング タイガー コペンハーゲンのFacebook、または、アプリ紹介ページで配布しているマーカーを印刷・ダウンロードします。\n
+アプリを起動して「TAKE PHOTO」を選択します。\n
+起動したカメラをマーカーに向けると、オリジナルフォトフレームが登場！\n
+フライング タイガー コペンハーゲンの楽しい世界が広がります。\n\n
+□みんなで撮ろう\n
+フライング タイガー コペンハーゲンのFacebook、または、アプリ紹介ページで配布しているマーカーをスマートフォンに表示します。\n
+別のスマートフォンでアプリを起動して「TAKE PHOTO」を選択します。\n
+マーカーを表示したスマートフォンが写るようにカメラを向けると、オリジナルフォトフレームが登場！\n
+いつでもどこでも、友達や家族と撮影が楽しめます。\n\n
+※撮影後保存した画像は、静止画になります。\n\n
+■著作権について\n
+本アプリケーション内で提供されるコンテンツ（ロゴ、イラストなど含む）の著作権等の権利は、Flying Tiger Copenhagenを運営するZebra Japan株式会社に帰属します。\n
+ユーザーは、本アプリケーション及び提供コンテンツを無断で複製、改変、転用、頒布することはできません。\n\n
+■サイト\n
+オフィシャルHP\n
+http://www.flyingtiger.jp/\n\n
+アプリ紹介サイト\n
+http://ftc-camera.net/\n	</string>
+    <string name="link_flyingtiger">http://www.flyingtiger.jp</string>
+    <string name="link_ftc">http://ftc-camera.net</string>
+
+</resources>
